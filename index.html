@@ -8,12 +8,12 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
-        <a class="navbar-brand fw-bolder" href="#">Anzarie's Clinic</a>
+        <a class="navbar-brand fw-bolder ps-4" href="#">Anzarie's Clinic</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse pe-4" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto ms-auto">
             <li class="nav-item active">
               <a class="nav-link active" href="index.html">Home</a>
@@ -36,47 +36,41 @@
               <a class="nav-link" href="#">Disabled</a>
             </li>
           </ul>
-
         </div>
       </nav>
 
 
-    <div class="container w-50">
+    <div class="container d-flex align-items-center justify-content-center">
 
-        <form class="text-center mt-5">
+        <form class="text-center mt-5 border p-4 w-25 bg-light rounded-4">
+          <h3 style="">LOG IN</h3>
             <!-- Email input -->
             <div class="form-outline mb-4">
-              <input type="email" id="form2Example1" class="form-control" />
-              <label class="form-label" for="form2Example1">Email address</label>
+              <input type="email" id="form2Example1" class="form-control" placeholder="User name"/>
             </div>
           
             <!-- Password input -->
             <div class="form-outline mb-4">
-              <input type="password" id="form2Example2" class="form-control" />
-              <label class="form-label" for="form2Example2">Password</label>
+              <input type="password" id="form2Example2" class="form-control" placeholder="Password"/>
             </div>
           
             <!-- 2 column grid layout for inline styling -->
             <div class="row mb-4">
-              <div class="col d-flex justify-content-center">
+              <div class="col d-flex justify-content-between">
                 <!-- Checkbox -->
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
                   <label class="form-check-label" for="form2Example31"> Remember me </label>
                 </div>
-              </div>
-          
-              <div class="col">
-                <!-- Simple link -->
-                <a href="#!">Forgot password?</a>
+                  <a href="#!">Forgot password?</a>
               </div>
             </div>
           
             <!-- Submit button -->
-            <a href="patient.html" class="btn bg-primary w-50">Log in</a>
+            <a href="patient.html" class="btn bg-primary w-100 text-white">Log in</a>
           
             <!-- Register buttons -->
-            <div class="text-center">
+            <div class="text-center pt-3">
               <p>Not a member? <a href="#!">Register</a></p>
             </div>
           </form>
